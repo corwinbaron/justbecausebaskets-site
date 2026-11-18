@@ -45,8 +45,7 @@ h1{margin:0;font-family:'Fraunces',Georgia,serif;font-weight:400;font-size:clamp
 .signup button{min-height:46px;padding:0 20px;font:inherit;font-size:16px;font-weight:700;color:#F5F3EE;background:#33463A;border:0;border-radius:8px;cursor:pointer}
 .signup button:hover{background:#1E2320}
 .signup input:focus-visible,.signup button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
-.consent{display:flex;gap:10px;align-items:flex-start;font-size:13px;line-height:1.45;color:var(--muted);cursor:pointer}
-.consent input{margin-top:2px;width:18px;height:18px;flex:none;accent-color:#33463A}
+.consent{margin:0;font-size:13px;line-height:1.45;color:var(--muted)}
 .sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 @media (prefers-color-scheme: dark){.signup button{background:#B7C2B0;color:#1E2320}.signup button:hover{background:#F5F3EE}}
 footer{padding:24px 16px;text-align:center;font-size:14px;color:var(--muted)}
@@ -73,17 +72,14 @@ footer{padding:24px 16px;text-align:center;font-size:14px;color:var(--muted)}
       <li>Corporate &amp; client gifts</li>
     </ul>
     <form class="signup" action="https://app.kit.com/forms/10201789/subscriptions" method="post">
-      <h2 class="signup-title">Be the first to know</h2>
-      <p class="signup-lead">New baskets, holiday order deadlines and our launch date, sent a few times a month at most.</p>
+      <h2 class="signup-title">Want first dibs?</h2>
+      <p class="signup-lead">New baskets, holiday deadlines and the odd sweet deal. A few emails a month, tops.</p>
       <div class="signup-row">
         <label class="sr-only" for="email">Email address</label>
         <input id="email" type="email" name="email_address" placeholder="you@example.com" autocomplete="email" required>
-        <button type="submit">Keep me posted</button>
+        <button type="submit">Count me in</button>
       </div>
-      <label class="consent">
-        <input type="checkbox" required>
-        <span>Yes, I’d like to receive emails from Just Because Baskets about new baskets, offers and news. I can unsubscribe at any time.</span>
-      </label>
+      <p class="consent">Emails come from Just Because Baskets. Unsubscribe anytime, no hard feelings.</p>
     </form>
     <hr class="rule">
     <p class="contact">Ordering for the holidays? Email us at <a href="mailto:hello@justbecausebaskets.ca">hello@justbecausebaskets.ca</a></p>
