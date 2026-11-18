@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>You’re in · Just Because Baskets</title>
+<meta name="robots" content="noindex">
+<meta name="description" content="Just Because Baskets: premade and custom gift baskets in the Greater Toronto Area. Our online store is coming soon.">
+<meta property="og:title" content="Just Because Baskets · Coming soon">
+<meta property="og:description" content="Premade and custom gift baskets in the Greater Toronto Area. No reason needed.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z' fill='%23C98B2B'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300..600&family=DM+Sans:wght@400;500;700&display=swap">
+<style>
+:root{
+  --ink:#1E2320;--forest:#33463A;--sage:#B7C2B0;--slate:#5D7180;--ochre:#C98B2B;--stone:#D9D4CA;--paper:#F5F3EE;
+  --bg:var(--paper);--text:var(--ink);--muted:#4F5B54;--line:var(--stone);--accent:var(--forest);
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){
+  :root{--bg:#1E2320;--text:#F5F3EE;--muted:#C9CFC6;--line:#3A4740;--accent:#B7C2B0;color-scheme:dark}
+}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%}
+body{background:var(--bg);color:var(--text);font-family:'DM Sans',Arial,sans-serif;line-height:1.5;display:flex;flex-direction:column;min-height:100vh}
+main{flex:1;display:flex;align-items:center;justify-content:center;padding:48px 16px}
+.wrap{width:100%;max-width:640px;text-align:center;display:flex;flex-direction:column;align-items:center;gap:28px}
+.mark{display:flex;align-items:center;gap:10px;font-family:'Fraunces',Georgia,serif;font-size:clamp(34px,7vw,52px);letter-spacing:-1px;font-weight:400;margin:0}
+.mark svg{width:.8em;height:.8em;flex:none}
+.eyebrow{margin:0;font-size:13px;letter-spacing:3px;text-transform:uppercase;color:var(--muted);font-weight:500}
+h1{margin:0;font-family:'Fraunces',Georgia,serif;font-weight:400;font-size:clamp(40px,9vw,72px);line-height:1.04;letter-spacing:-1.5px}
+.lead{margin:0;font-size:clamp(17px,2.6vw,20px);color:var(--muted);max-width:520px}
+.lead a{color:var(--accent);font-weight:700;text-underline-offset:3px}
+.rule{width:56px;height:1px;background:var(--line);border:0;margin:4px 0}
+.offer{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;justify-content:center;gap:10px}
+.offer li{border:1px solid var(--line);border-radius:999px;padding:8px 16px;font-size:15px}
+.contact{margin:0;font-size:16px}
+.contact a{color:var(--accent);font-weight:700;text-underline-offset:3px}
+.contact a:hover{color:var(--text)}
+.contact a:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:2px}
+.signup{width:100%;max-width:520px;border:1px solid var(--line);border-radius:14px;padding:24px;display:flex;flex-direction:column;gap:14px;text-align:left}
+.signup-title{margin:0;font-family:'Fraunces',Georgia,serif;font-weight:400;font-size:26px;line-height:1.2}
+.signup-lead{margin:0;font-size:15px;color:var(--muted)}
+.signup-row{display:flex;gap:8px;flex-wrap:wrap}
+.signup input[type=email]{flex:1 1 220px;min-height:46px;padding:0 14px;font:inherit;font-size:16px;color:var(--text);background:transparent;border:1px solid var(--muted);border-radius:8px}
+.signup button{min-height:46px;padding:0 20px;font:inherit;font-size:16px;font-weight:700;color:#F5F3EE;background:#33463A;border:0;border-radius:8px;cursor:pointer}
+.signup button:hover{background:#1E2320}
+.signup input:focus-visible,.signup button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.consent{display:flex;gap:10px;align-items:flex-start;font-size:13px;line-height:1.45;color:var(--muted);cursor:pointer}
+.consent input{margin-top:2px;width:18px;height:18px;flex:none;accent-color:#33463A}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+@media (prefers-color-scheme: dark){.signup button{background:#B7C2B0;color:#1E2320}.signup button:hover{background:#F5F3EE}}
+footer{padding:24px 16px;text-align:center;font-size:14px;color:var(--muted)}
+.signoff{font-family:'Fraunces',Georgia,serif;font-style:italic}
+@media (prefers-reduced-motion: no-preference){
+  .wrap>*{animation:rise .6s ease-out both}
+  .wrap>*:nth-child(2){animation-delay:.08s}.wrap>*:nth-child(3){animation-delay:.16s}
+  .wrap>*:nth-child(4){animation-delay:.24s}.wrap>*:nth-child(5){animation-delay:.32s}
+  .wrap>*:nth-child(6){animation-delay:.4s}.wrap>*:nth-child(7){animation-delay:.48s}
+  @keyframes rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+}
+</style>
+</head>
+<body>
+<main>
+  <div class="wrap">
+    <p class="mark" aria-label="just because">just because<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="#C98B2B"/></svg></p>
+    <p class="eyebrow">You’re on the list</p>
+    <h1>You’re in. Welcome!</h1>
+    <p class="lead">Thanks for joining. You’ll be the first to hear about new baskets, holiday order deadlines and our launch. Need a basket sooner? Email us at <a href="mailto:hello@justbecausebaskets.ca">hello@justbecausebaskets.ca</a>.</p>
+    <p class="contact"><a href="/">Back to the home page</a></p>
+  </div>
+</main>
+<footer>
+  <span class="signoff">No reason needed.</span> · Richmond Hill, Ontario · © 2026 Just Because Baskets
+</footer>
+</body>
+</html>
