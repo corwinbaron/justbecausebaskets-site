@@ -10,7 +10,7 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z' fill='%23C98B2B'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300..600&family=DM+Sans:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300..600&family=DM+Sans:wght@400;500&display=swap">
 <style>
 :root{
   --ink:#1E2320;--forest:#33463A;--sage:#B7C2B0;--slate:#5D7180;--ochre:#C98B2B;--stone:#D9D4CA;--paper:#F5F3EE;
@@ -30,25 +30,10 @@ main{flex:1;display:flex;align-items:center;justify-content:center;padding:48px 
 .eyebrow{margin:0;font-size:13px;letter-spacing:3px;text-transform:uppercase;color:var(--muted);font-weight:500}
 h1{margin:0;font-family:'Fraunces',Georgia,serif;font-weight:400;font-size:clamp(40px,9vw,72px);line-height:1.04;letter-spacing:-1.5px}
 .lead{margin:0;font-size:clamp(17px,2.6vw,20px);color:var(--muted);max-width:520px}
-.rule{width:56px;height:1px;background:var(--line);border:0;margin:4px 0}
-.offer{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;justify-content:center;gap:10px}
-.offer li{border:1px solid var(--line);border-radius:999px;padding:8px 16px;font-size:15px}
 .contact{margin:0;font-size:16px}
-.contact a{color:var(--accent);font-weight:700;text-underline-offset:3px}
+.contact a{color:var(--accent);font-weight:500;text-underline-offset:3px}
 .contact a:hover{color:var(--text)}
 .contact a:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:2px}
-.signup{width:100%;max-width:520px;border:1px solid var(--line);border-radius:14px;padding:24px;display:flex;flex-direction:column;gap:14px;text-align:left}
-.signup-title{margin:0;font-family:'Fraunces',Georgia,serif;font-weight:400;font-size:26px;line-height:1.2}
-.signup-lead{margin:0;font-size:15px;color:var(--muted)}
-.signup-row{display:flex;gap:8px;flex-wrap:wrap}
-.signup input[type=email]{flex:1 1 220px;min-height:46px;padding:0 14px;font:inherit;font-size:16px;color:var(--text);background:transparent;border:1px solid var(--muted);border-radius:8px}
-.signup button{min-height:46px;padding:0 20px;font:inherit;font-size:16px;font-weight:700;color:#F5F3EE;background:#33463A;border:0;border-radius:8px;cursor:pointer}
-.signup button:hover{background:#1E2320}
-.signup input:focus-visible,.signup button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
-.consent{display:flex;gap:10px;align-items:flex-start;font-size:13px;line-height:1.45;color:var(--muted);cursor:pointer}
-.consent input{margin-top:2px;width:18px;height:18px;flex:none;accent-color:#33463A}
-.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
-@media (prefers-color-scheme: dark){.signup button{background:#B7C2B0;color:#1E2320}.signup button:hover{background:#F5F3EE}}
 footer{padding:24px 16px;text-align:center;font-size:14px;color:var(--muted)}
 .signoff{font-family:'Fraunces',Georgia,serif;font-style:italic}
 @media (prefers-reduced-motion: no-preference){
