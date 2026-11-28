@@ -62,6 +62,24 @@ h1{margin:0;font-family:'Fraunces',Georgia,serif;font-weight:400;font-size:clamp
 .make-list h3{margin:0;font-size:18px;font-weight:700}
 .make-list p{margin:0;color:var(--muted)}
 
+/* Review call-to-action */
+.review-cta{display:flex;align-items:center;justify-content:space-between;gap:32px;padding-bottom:88px}
+.review-cta h2{margin:0;font-family:'Fraunces',Georgia,serif;font-weight:400;font-size:clamp(30px,3.4vw,40px);line-height:1.1;letter-spacing:-1px}
+.review-cta p{margin:12px 0 0;color:var(--muted);max-width:34em}
+.btn-outline{background:transparent;color:var(--text);border:1px solid var(--text);flex:none}
+.btn-outline:hover{background:var(--text);color:var(--bg)}
+@media (prefers-color-scheme: dark){.btn-outline{background:transparent;color:var(--text)}.btn-outline:hover{background:var(--text);color:var(--bg)}}
+
+/* Reviews page */
+.page-head{padding-top:40px;padding-bottom:8px;max-width:720px}
+.page-head h1{max-width:14ch}
+.form-wrap{max-width:720px;padding-top:24px;padding-bottom:88px}
+.form-card{border:1px solid var(--line);border-radius:14px;background:var(--card);padding:28px}
+/* The Tally form has fixed light colours, so its card stays light in dark mode too */
+.form-card-light{background:#FBFAF7;border-color:#D9D4CA;color:#1E2320;color-scheme:light}
+.form-card iframe{display:block;border:0;width:100%}
+.form-note{margin:16px 0 0;font-size:14px;color:var(--muted)}
+
 /* Corporate band */
 .band{background:var(--band);color:var(--band-text)}
 .band .container{display:flex;align-items:center;justify-content:space-between;gap:32px;padding-top:56px;padding-bottom:56px}
@@ -84,6 +102,8 @@ footer a{color:var(--muted)}
   .make{grid-template-columns:1fr;gap:24px;padding-top:48px;padding-bottom:64px}
   .make-list li{grid-template-columns:1fr;gap:4px}
   .band .container{flex-direction:column;align-items:flex-start;padding-top:44px;padding-bottom:44px}
+  .review-cta{flex-direction:column;align-items:flex-start;gap:20px;padding-bottom:64px}
+  .form-card{padding:20px}
 }
 @media (max-width:420px){
   .top-link{display:none}
